@@ -40,8 +40,6 @@ fn main() {
         let mut max_green: u32 = 0;
 
         let split_on_colon: Vec<&str> = line.split(':').collect();
-        let game_meta_data: Vec<&str> = split_on_colon[0].split(' ').collect();
-        let game_index = (*game_meta_data[1]).parse::<u32>().unwrap();
 
         let quantity_colour_pairs: Vec<&str> = split_on_colon[1].split([',',';']).collect();
         for pair in quantity_colour_pairs {
