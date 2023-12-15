@@ -2,7 +2,7 @@ use std::fs::read_to_string;
 use std::char::from_u32;
 
 fn main() {
-    let file_data = read_to_string("src/bin/day3.txt").unwrap();
+    let file_data = read_to_string("src/bin/inputs/day3.txt").unwrap();
     let lines: Vec<&str> = file_data.split("\n").collect();
 
     /* Part 1 */

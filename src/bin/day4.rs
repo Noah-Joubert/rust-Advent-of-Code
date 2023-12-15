@@ -3,7 +3,7 @@ use std::collections::BinaryHeap;
 use std::cmp::{min};
 
 fn main() {
-    let file_data = read_to_string("src/bin/day4.txt").unwrap();
+    let file_data = read_to_string("src/bin/inputs/day4.txt").unwrap();
     let lines: Vec<&str> = file_data.split("\n").collect();
 
     /* Part 1 */
