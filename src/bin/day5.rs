@@ -2,7 +2,7 @@ use std::fs::read_to_string;
 use std::cmp::{min, max};
 
 fn main() {
-    let file_data = read_to_string("src/bin/day5.txt").unwrap();
+    let file_data = read_to_string("src/bin/inputs/day5.txt").unwrap();
     let lines: Vec<&str> = file_data.split("\n").collect();
 
     /* Part 1 */
