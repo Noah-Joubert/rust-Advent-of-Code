@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 counter = "0.5.7"
+indexmap = "2.1.0"
 num = "0.4.1"
